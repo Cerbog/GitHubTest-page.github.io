@@ -1,8 +1,12 @@
 body{
-   background-color: aqua;
+   background-color:lightskyblue;
 }
 
-p{
+h1{
    color:blue;
    margin-left: 20px;
+}
+p{
+   margin-left: 20px;
+   color: cornflowerblue;
 }
