@@ -22,3 +22,6 @@ git branch <name> - creaza un branch (o ramura noua)
 git branch  - fara nimic - afiseaza toate ramurile, cu * in dreptul ramurei pe care suntem
 git checkout <name> - schimba ramura actuala, care va deveni acum <name>
 git checkout -b <name> - creaza, daca nu exista, ramura <name> si face switch pe ea direct
+git merge <name_of_branch> - face merge intre ramura pe care esti si cea din <name_of_branch>. 
+   Daca e o ramura directa, si nici in prima ramura (din care deriveaza si pe care se face merge ulterior) nu s-au mai facut schimbari, atunci merge-ul e numit "Fast-forword"
+git --delete (sau, pe scurt, -d) <branch-name> - sterge ramura respectiva
