@@ -27,3 +27,5 @@ git merge <name_of_branch> - face merge intre ramura pe care esti si cea din <na
    Daca apar conflicte, nu se face merge-ul automat, ci se creaza un pseudo-branch (de ex:) master|MERGING, deschizi in editor si se vad variantele-diferentele; 
    alegi ce cod si de unde sa ramana, apoi faci add si commit, dupa care pseudo-branch-ul dispare si schimbarile sunt acum oficiale pe master (sau pe ramura pe care faci merge-ul) 
 git --delete (sau, pe scurt, -d) <branch-name> - sterge ramura respectiva
+git remote add origin <URL>  - adauga un repository remote la url-ul respectiv, care e origin la repo local
+git push --set-upstream origin master  -> master devine origin remote branch
