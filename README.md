@@ -24,4 +24,6 @@ git checkout <name> - schimba ramura actuala, care va deveni acum <name>
 git checkout -b <name> - creaza, daca nu exista, ramura <name> si face switch pe ea direct
 git merge <name_of_branch> - face merge intre ramura pe care esti si cea din <name_of_branch>. 
    Daca e o ramura directa, si nici in prima ramura (din care deriveaza si pe care se face merge ulterior) nu s-au mai facut schimbari, atunci merge-ul e numit "Fast-forword"
+   Daca apar conflicte, nu se face merge-ul automat, ci se creaza un pseudo-branch (de ex:) master|MERGING, deschizi in editor si se vad variantele-diferentele; 
+   alegi ce cod si de unde sa ramana, apoi faci add si commit, dupa care pseudo-branch-ul dispare si schimbarile sunt acum oficiale pe master (sau pe ramura pe care faci merge-ul) 
 git --delete (sau, pe scurt, -d) <branch-name> - sterge ramura respectiva
