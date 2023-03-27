@@ -21,3 +21,4 @@ git help --all - toate comenzile git
 git branch <name> - creaza un branch (o ramura noua)
 git branch  - fara nimic - afiseaza toate ramurile, cu * in dreptul ramurei pe care suntem
 git checkout <name> - schimba ramura actuala, care va deveni acum <name>
+git checkout -b <name> - creaza, daca nu exista, ramura <name> si face switch pe ea direct
