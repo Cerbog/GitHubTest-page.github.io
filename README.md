@@ -31,3 +31,4 @@ git remote add origin <URL>  - adauga un repository remote la url-ul respectiv, 
 git push --set-upstream origin master  -> master devine origin remote branch
 git diff origin/master  -> arata diferentele dintre cele 2 versiuni
 git pull <remote_repo>(ex: origin) - combinare intre fetch si merge -> actualizeaza repo local de la cel remote
+git push origin -> impinge codul local (dupa ce s-a facut add si commit pe repo local) in remote pe origin (care e master branch)
