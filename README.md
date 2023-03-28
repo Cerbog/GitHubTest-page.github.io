@@ -33,3 +33,6 @@ git diff origin/master  -> arata diferentele dintre cele 2 versiuni
 git pull <remote_repo>(ex: origin) - combinare intre fetch si merge -> actualizeaza repo local de la cel remote
 git pull -> fara nimic dupa - face un update local -> daca sunt si alte branch-uri, acum le vede
 git push origin -> impinge codul local (dupa ce s-a facut add si commit pe repo local) in remote pe origin (care e master branch)
+git branch -a -> afiseaza toate ramurile, atat cele locale, cat si cele remote
+git branch -r -> afiseaza doar ramurile remote
+git checkout <remote-branch> -> intri pe ramura remote respectiva, dupa care faci "git pull" sa o aduci local
